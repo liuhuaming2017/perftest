@@ -9,7 +9,7 @@ public class PerftestliuhuamingDelegate {
 
     public String helloworld(String name){
         // Do Some Magic Here!
-        system.out.println("test");
+        System.out.println("test");
         return RegistryUtils.getPublishAddress() + name;
     }
 }
