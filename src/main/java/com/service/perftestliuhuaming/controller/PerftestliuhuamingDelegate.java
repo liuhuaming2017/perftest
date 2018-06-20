@@ -9,6 +9,7 @@ public class PerftestliuhuamingDelegate {
 
     public String helloworld(String name){
         // Do Some Magic Here!
-        return RegistryUtils.getPublishAddress();
+        system.out.println("test");
+        return RegistryUtils.getPublishAddress() + name;
     }
 }
