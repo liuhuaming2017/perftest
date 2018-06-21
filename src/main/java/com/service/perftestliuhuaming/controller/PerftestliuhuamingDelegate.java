@@ -10,6 +10,9 @@ public class PerftestliuhuamingDelegate {
 
     public String helloworld(String name){
         // Do Some Magic Here!
+        Logger logger = LoggerFactory.getLogger(PerftestliuhuamingDelegate.class);
         System.out.println("test");
+        logger.info(RegistryUtils.getPublishAddress());
+        return RegistryUtils.getPublishAddress() + "-" + name;
     }
 }
