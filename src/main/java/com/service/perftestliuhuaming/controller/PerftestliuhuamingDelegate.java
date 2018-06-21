@@ -2,7 +2,7 @@ package com.service.perftestliuhuaming.controller;
 
 import org.apache.servicecomb.serviceregistry.RegistryUtils;
 import org.springframework.stereotype.Component;
-import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @Component
