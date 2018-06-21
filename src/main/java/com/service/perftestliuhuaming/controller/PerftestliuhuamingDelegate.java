@@ -11,7 +11,7 @@ public class PerftestliuhuamingDelegate {
     public String helloworld(String name){
         // Do Some Magic Here!        
         //System.out.println("test");
-        logger.info("call PerftestliuhuamingDelegate");
+        //logger.info("call PerftestliuhuamingDelegate");
         return RegistryUtils.getPublishAddress() + "-" + name;
     }
 }
