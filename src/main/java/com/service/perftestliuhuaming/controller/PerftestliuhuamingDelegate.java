@@ -7,10 +7,9 @@ import org.slf4j.LoggerFactory;
 
 @Component
 public class PerftestliuhuamingDelegate {
-
+    Logger logger = LoggerFactory.getLogger(PerftestliuhuamingDelegate.class);
     public String helloworld(String name){
-        // Do Some Magic Here!
-        Logger logger = LoggerFactory.getLogger(PerftestliuhuamingDelegate.class);
+        // Do Some Magic Here!        
         System.out.println("test");
         logger.info(RegistryUtils.getPublishAddress());
         return RegistryUtils.getPublishAddress() + "-" + name;
