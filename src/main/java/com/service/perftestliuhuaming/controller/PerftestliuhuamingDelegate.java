@@ -10,8 +10,8 @@ public class PerftestliuhuamingDelegate {
     Logger logger = LoggerFactory.getLogger(PerftestliuhuamingDelegate.class);
     public String helloworld(String name){
         // Do Some Magic Here!        
-        System.out.println("test");
-        logger.info(RegistryUtils.getPublishAddress());
+        //System.out.println("test");
+        //logger.info(RegistryUtils.getPublishAddress());
         return RegistryUtils.getPublishAddress() + "-" + name;
     }
 }
