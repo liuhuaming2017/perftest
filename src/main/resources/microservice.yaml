@@ -20,12 +20,12 @@ cse:
       #serverUri: https://cse.cn-north-1.myhuaweicloud.com
   rest:
     address: 0.0.0.0:8080
-  handler:
-    chain:
-      provider:
-        default:perf-stats
-      Consumer:
-        default:perf-stats
+Servicecomb:
+  metrics:
+    publisher:
+      defaultLog:
+        enabled: true
+    
   #When a local project is deployed as a container outside a cluster, you need to delete all monitor and credentials comments and configure the AK/SK.
   #credentials:
     #accessKey: ak
