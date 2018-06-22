@@ -38,8 +38,8 @@
         </dependency>
         
         <dependency>
-                <groupId>com.huawei.paas.cse</groupId>
-                <artifactId>cse-handler-performance-stats</artifactId>
+                <groupId>org.apache.servicecomb</groupId>
+                <artifactId>metrics-core</artifactId>
         </dependency>
             
             
